@@ -11,7 +11,7 @@ public class FirstApiTest {
     public void setup() {
         RestAssured.baseURI = "https://jsonplaceholder.typicode.com";
     }
-    @Test
+    @Test(groups = {"smoke"})
     public void getUsersTest() {
 
 

@@ -9,7 +9,7 @@ public class BaseTest {
     protected RequestSpecification spec;
 
     @BeforeClass
-    public void setup() {
+    public void setUp() {
         spec = new RequestSpecBuilder()
                 .setBaseUri("https://jsonplaceholder.typicode.com")
                 .build();

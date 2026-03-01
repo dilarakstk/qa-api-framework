@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.greaterThan;
 
 public class PostTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"smoke"})
     public void getPostsTest() {
 
         Response response = RestAssured.given()

@@ -13,7 +13,7 @@ import static io.restassured.RestAssured.given;
 
 public class CreatePostTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"smoke"})
     public void createPostTest() {
 
         Post requestPost = new Post("Hello API", "This is a test post", 1);

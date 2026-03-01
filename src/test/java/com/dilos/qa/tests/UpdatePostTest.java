@@ -11,7 +11,7 @@ import static io.restassured.RestAssured.given;
 
 public class UpdatePostTest extends BaseTest {
 
-    @Test
+    @Test(groups = {"smoke"})
     public void updateExistingPost_put_shouldReturn200() {
 
         Post updatedPost = new Post(
