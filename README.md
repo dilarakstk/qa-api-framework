@@ -80,3 +80,11 @@ This framework simulates real QA automation workflows:
 - API validation  
 - Regression-ready structure  
 - CI-integrated testing pipeline
+
+## 📸 Test Execution
+
+Example test execution results:
+
+- API response validation
+- Status code checks
+- CI pipeline execution
