@@ -1,34 +1,54 @@
-# QA API Automation Framework
+# API Test Automation Framework
 
-A scalable API test automation framework built with Java, RestAssured, and TestNG.
+## 📌 Overview
+This project is a scalable API test automation framework built with Java, RestAssured, and TestNG.
 
-## 🚀 Tech Stack
-- Java 21
-- Maven
+It is designed to support reusable test structure, clean validation logic, and maintainable API test execution.
+
+---
+
+## 🚀 Features
+- CRUD API testing (GET, POST, PUT, DELETE)
+- JSON response validation
+- Reusable RequestSpecification setup
+- Config-based environment management
+- Clean and maintainable framework structure
+
+---
+
+## 🛠️ Tech Stack
+- Java
 - RestAssured
 - TestNG
-- JSON Schema Validation
+- Maven
 
-## 📂 Project Structure
-- BaseTest → shared request configuration
-- tests → API test classes (GET, POST, PUT)
-- models → POJO models
-- pom.xml → dependency management
+---
 
-## 🧪 Test Coverage
-- GET user
-- POST create resource
-- PUT update resource
-- Response validation
-- Status code validation
-- JSON schema validation
+## 📊 Test Coverage
+- Automated 30+ API test cases
+- Covers multiple endpoints and scenarios
+- Validates status codes and response bodies
 
-## 🏗 Design Approach
-- Centralized RequestSpecification
-- Reusable BaseTest structure
-- Configuration externalization ready
-- Group-based test execution (smoke)
-- Modular and scalable test design
-## ▶️ Run Tests
+---
+
+## 🧠 Design Approach
+- Reusable test components
+- Separation of concerns (BaseTest, utils, config)
+- Scalable automation structure
+
+---
+
+## ▶️ How to Run
 ```bash
 mvn clean test
+
+---
+
+## 📂 Project Structure
+```text
+src
+ ├── test
+ ├── utils
+ ├── config
+ └── base
+
