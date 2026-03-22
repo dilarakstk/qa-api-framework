@@ -1,50 +1,82 @@
-# API Test Automation Framework
+# 🚀 API Test Automation Framework
 
-## 📌 Overview
-This project is a scalable API test automation framework built with Java, RestAssured, and TestNG.
+A scalable API test automation framework built with Java, RestAssured, and TestNG.
 
-It is designed to support reusable test structure, clean validation logic, and maintainable API test execution.
-
----
-
-## 🚀 Features
-- CRUD API testing (GET, POST, PUT, DELETE)
-- JSON response validation
-- Reusable RequestSpecification setup
-- Config-based environment management
-- Clean and maintainable framework structure
+This project demonstrates real-world QA automation practices including API validation, CI/CD integration, and maintainable test architecture.
 
 ---
 
-## 🛠️ Tech Stack
-- Java
-- RestAssured
-- TestNG
-- Maven
+## ⚙️ CI/CD
+
+This project is integrated with GitHub Actions.
+
+- Runs automated tests on every push  
+- Ensures code stability  
+- Provides continuous feedback on test results  
+
+---
+
+## 🔍 Features
+
+- CRUD API testing (GET, POST, PUT, DELETE)  
+- JSON response validation  
+- Reusable RequestSpecification setup  
+- Config-based environment management  
+- Clean and maintainable framework structure  
+
+---
+
+## 🧱 Tech Stack
+
+- Java 21  
+- RestAssured  
+- TestNG  
+- Maven  
 
 ---
 
 ## 📊 Test Coverage
-- Automated 30+ API test cases
-- Covers multiple endpoints and scenarios
-- Validates status codes and response bodies
+
+- Automated 30+ API test cases  
+- Covers multiple endpoints and scenarios  
+- Validates status codes and response bodies  
 
 ---
 
 ## 🧠 Design Approach
-- Reusable test components
-- Separation of concerns (BaseTest, utils, config)
-- Scalable automation structure
+
+- Reusable test components  
+- Separation of concerns (BaseTest, utils, config)  
+- Scalable automation structure  
 
 ---
 
 ## ▶️ How to Run
-```bash
-mvn clean test
 
-plain text
-src
- ├── test
- ├── utils
- ├── config
- └── base
+    mvn clean test
+
+---
+
+### 🔗 Sample Test Scenarios
+
+- GET user validation  
+- POST resource creation  
+- PUT update validation  
+
+---
+
+### 📁 Related Projects
+
+- API Automation Framework → https://github.com/dilarakstk/qa-api-framework  
+- E-Commerce Automation → https://github.com/dilarakstk/ECommerceAutomation  
+- UI Automation Framework → https://github.com/dilarakstk/Biznisla-Automation-Framework  
+
+---
+
+### 🌍 Real-World Value
+
+This framework simulates real QA automation workflows:
+
+- API validation  
+- Regression-ready structure  
+- CI-integrated testing pipeline
